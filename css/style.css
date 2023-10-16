@@ -168,6 +168,7 @@ body {
   outline: 3px solid transparent;
   outline-offset: 3px;
   -webkit-transition: outline-color 0.2s ease-in-out;
+  -o-transition: outline-color 0.2s ease-in-out;
   transition: outline-color 0.2s ease-in-out;
 }
 
@@ -199,6 +200,7 @@ body {
   outline: none;
   position: relative;
   -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 
@@ -211,6 +213,7 @@ body {
   bottom: -10px;
   background-color: transparent;
   -webkit-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
   z-index: -1;
 }
@@ -245,6 +248,7 @@ body {
 
 .header__search-btn path {
   -webkit-transition: stroke 0.2s ease-in-out;
+  -o-transition: stroke 0.2s ease-in-out;
   transition: stroke 0.2s ease-in-out;
 }
 
@@ -311,6 +315,7 @@ body {
   outline: 2px solid transparent;
   outline-offset: -2px;
   -webkit-transition: background-color 0.2s ease-in-out, outline-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, outline-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, outline-color 0.2s ease-in-out;
 }
 
@@ -357,6 +362,7 @@ body {
   height: 100%;
   outline: 5px solid transparent;
   -webkit-transition: outline-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: outline-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: outline-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -469,6 +475,7 @@ body {
   outline: 2px solid var(--almost-black-color);
   outline-offset: -2px;
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -580,6 +587,7 @@ body {
   line-height: normal;
   outline: none;
   -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
   /* z-index: 1000; */
 }
@@ -597,6 +605,7 @@ body {
   bottom: -2px;
   background-color: transparent;
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   z-index: -1;
 }
@@ -611,6 +620,7 @@ body {
 
 .broadcast__morelink path {
   -webkit-transition: fill 0.2s ease-in-out;
+  -o-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
 
@@ -731,6 +741,7 @@ body {
   justify-self: flex-end;
   outline: none;
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -834,6 +845,7 @@ body {
   flex-direction: column;
   outline: 5px solid transparent;
   -webkit-transition: outline-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: outline-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: outline-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -971,6 +983,7 @@ body {
   border: 2px solid var(--pink-gold-color);
   outline: none;
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
@@ -992,6 +1005,7 @@ body {
 .adv__link-svg-first,
 .adv__link-svg-second {
   -webkit-transition: fill 0.2s ease-in-out;
+  -o-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
 
@@ -1157,6 +1171,7 @@ body {
   font-weight: 400;
   line-height: normal;
   -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -1177,6 +1192,7 @@ body {
   font-weight: 400;
   line-height: normal;
   -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
@@ -1271,6 +1287,26 @@ body {
   visibility: hidden;
 }
 
+.about__form-input:invalid:-moz-placeholder-shown+.about__form-error,
+.about__form-input:valid:-moz-placeholder-shown+.about__form-error {
+  visibility: hidden;
+}
+
+.about__form-input:invalid:-ms-input-placeholder+.about__form-error,
+.about__form-input:valid:-ms-input-placeholder+.about__form-error {
+  visibility: hidden;
+}
+
+.about__form-input:invalid:-moz-placeholder-shown+.about__form-error,
+.about__form-input:valid:-moz-placeholder-shown+.about__form-error {
+  visibility: hidden;
+}
+
+.about__form-input:invalid:-ms-input-placeholder+.about__form-error,
+.about__form-input:valid:-ms-input-placeholder+.about__form-error {
+  visibility: hidden;
+}
+
 .about__form-input:invalid:placeholder-shown+.about__form-error,
 .about__form-input:valid:placeholder-shown+.about__form-error {
   visibility: hidden;
@@ -1317,6 +1353,7 @@ body {
   outline: 2px solid transparent;
   outline-offset: -2px;
   -webkit-transition: background-color 0.2s ease-in-out, outline-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, outline-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, outline-color 0.2s ease-in-out;
 }
 
@@ -1374,6 +1411,7 @@ body {
   height: 13px;
   border: 1px solid var(--white-color);
   -webkit-transform: translateY(-65%);
+  -ms-transform: translateY(-65%);
   transform: translateY(-65%);
 }
 
@@ -1388,9 +1426,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   -webkit-transform: translateY(-65%);
+  -ms-transform: translateY(-65%);
   transform: translateY(-65%);
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -1413,13 +1453,13 @@ body {
 }
 
 .footer__content {
-  padding-top: 94px;
+  padding-top: 92px;
   padding-bottom: 10px;
 }
 
 .footer__wrapper {
   width: 100%;
-  margin-bottom: 114px;
+  margin-bottom: 118px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -1437,6 +1477,7 @@ body {
   outline: 3px solid transparent;
   outline-offset: 3px;
   -webkit-transition: outline-color 0.2s ease-in-out;
+  -o-transition: outline-color 0.2s ease-in-out;
   transition: outline-color 0.2s ease-in-out;
 }
 
@@ -1454,6 +1495,7 @@ body {
 
 .socials__item-link-svg1 {
   -webkit-transition: fill 0.2s ease-in-out;
+  -o-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
 
@@ -1486,13 +1528,14 @@ body {
   flex-direction: column;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  max-height: 98px;
+  max-height: 100px;
 }
 
 .footer__nav-link {
   outline: none;
   position: relative;
   -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
   z-index: 1;
 }
@@ -1506,6 +1549,7 @@ body {
   bottom: -10px;
   background-color: transparent;
   -webkit-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
   z-index: -1;
 }
@@ -1542,9 +1586,9 @@ body {
 }
 
 .footer__nav-item:not(:nth-child(3n)) {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
-.footer__nav-item:nth-child(-n+6) {
+.footer__nav-item:not(:nth-last-child(-n +3)) {
   margin-right: 109px;
 }
