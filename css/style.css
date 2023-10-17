@@ -547,6 +547,8 @@ body {
 
 .broadcast__item-img {
   display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .broadcast__item-img:last-child {
@@ -769,6 +771,8 @@ body {
 
 .guests__item-img {
   margin-right: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .guests__item-card {
@@ -1087,7 +1091,9 @@ body {
   line-height: 160%;
 }
 
-.about__wave {
+.about__first-part::after {
+  position: static;
+  content: "";
   display: none;
   height: 114px;
   background-image: url("../img/about__figures-768.png");
@@ -1265,6 +1271,16 @@ body {
 
 .about__form-input:invalid:placeholder-shown:focus {
   border-color: var(--light-purple-color);
+}
+
+.about__form-input:invalid:-moz-placeholder-shown+.about__form-error,
+.about__form-input:valid:-moz-placeholder-shown+.about__form-error {
+  visibility: hidden;
+}
+
+.about__form-input:invalid:-ms-input-placeholder+.about__form-error,
+.about__form-input:valid:-ms-input-placeholder+.about__form-error {
+  visibility: hidden;
 }
 
 .about__form-input:invalid:-moz-placeholder-shown+.about__form-error,

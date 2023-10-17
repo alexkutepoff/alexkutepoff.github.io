@@ -537,7 +537,7 @@
     background-image: none;
   }
 
-  .about__wave {
+  .about__first-part::after {
     display: block;
     margin-left: -60px;
   }
@@ -1057,7 +1057,7 @@
     margin-bottom: 0;
   }
 
-  .about__wave {
+  .about__first-part::after {
     display: none;
   }
 
